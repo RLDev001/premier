@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+body{
+    background-color: #F8F8F8;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+ 
+    padding-top:1px;
+
+}
+nav{
+    margin-top: 30px;
+    height: 11vh;
+    width: 100%;
+
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    position: relative;
+  
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+
+}
+nav ul li {
+   
+    padding: 10px;
+    height: 100%;
+    width: 22%;
+    font-size: 1.3vw;
+    font-weight: 600;
+   border-right:2px solid #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   object-fit: contain;
+
+   
+  
+    
+}
+nav ul li:first-child{
+    font-size: 2.5vw;
+    font-weight: 800;
+    border: none;
+    width: 24%;
+    letter-spacing: -3px;
+}
+nav ul li:first-child::after{
+    content: "©️";
+    font-size: 1.5vw;
+    font-weight:600;
+    position:absolute;
+    top: 3vh;
+    left: 17VW;
+}
+nav ul li:first-child::before{
+    content: "model managment";
+    color: #282828;
+    font-size: 0.9vw;
+    letter-spacing: -1px;
+    font-weight:600;
+    position:absolute;
+    bottom: 1.5vh;
+    left: 10vw;
+}
+
+nav ul li:first-child:hover{
+    font-weight: 800;
+    color: #1d1d1d;
+}
+
+nav ul li:last-child{
+    width: 10%;
+    border: none;
+
+
+}
+nav ul li:hover{
+    font-weight: 500;
+    color: #282828;
+}
