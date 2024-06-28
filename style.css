@@ -430,9 +430,10 @@ video{
 #page-6 .el img {
     position: absolute;
     left: 0;
-    bottom: 0;
+    z-index: 100;
+    /* bottom: 0; */
     width: 15%;
-    height: 150%;
+    height: 200%;
     object-fit: cover;
     border-radius: 20%;
     opacity: 0;
@@ -461,7 +462,9 @@ video{
   
 }
 #page-6 .el:hover img{
+
     /* background-color: #fff; */
+  
     opacity: 1;
     left: 18%;
     
