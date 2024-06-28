@@ -423,7 +423,7 @@ video{
     border-top: 2px solid #000 ;
     /* border-bottom: 2px solid #000; */
     /* background-color: #8b2727; */
-    transition: 2s;
+    transition: 1s;
     position: relative;
 
 }
@@ -437,7 +437,7 @@ video{
     object-fit: cover;
     border-radius: 20%;
     opacity: 0;
-    transition: 2s;
+    transition: 1s;
 }
 
 .el #el-left{
