@@ -437,7 +437,7 @@ video{
     object-fit: cover;
     border-radius: 20%;
     opacity: 0;
-    transition: 1s;
+    transition: 0.8s;
 }
 
 .el #el-left{
@@ -468,4 +468,7 @@ video{
     opacity: 1;
     left: 18%;
     
+}
+.el:last-child{
+    border-bottom: 2px solid #000;
 }
